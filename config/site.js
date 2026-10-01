@@ -6,7 +6,7 @@ const site = {
   shortName: "Debora Silva",
   tagline: "Joias que contam histórias",
   description:
-    "Joias e acessórios de design exclusivo, acabamento artesanal e elegância em cada detalhe. Conheça a coleção Debora Silva Acessórios.",
+    "Joias e acessórios de design exclusivo, elegância em cada detalhe. Conheça a coleção Debora Silva Acessórios.",
 
   // Endereço público do site (usado em SEO, sitemap e Open Graph).
   // Troque pelo domínio real quando publicar.
@@ -20,7 +20,7 @@ const site = {
 
   email: "contato@deborasilvaacessorios.com.br",
   address: "Fortaleza · Ceará · Brasil",
-  instagram: "https://instagram.com/", // ← coloque o link do perfil
+  instagram: "https://www.instagram.com/deborasilva_acessorios?stkn=MWJzMmVtbHJodGJuNA==", // ← coloque o link do perfil
   facebook: "",
   tiktok: "",
 
