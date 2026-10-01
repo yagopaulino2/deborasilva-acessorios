@@ -1,0 +1,62 @@
+# Painel de produtos (Decap CMS) — acesse em /admin depois de publicar o site.
+# Passo a passo completo no README.md.
+backend:
+  name: git-gateway      # Netlify: ative "Identity" + "Git Gateway" no painel do Netlify
+  branch: main
+  # Para Vercel/Cloudflare use o backend do GitHub:
+  # name: github
+  # repo: SEU-USUARIO/SEU-REPOSITORIO
+  # base_url: https://URL-DO-SEU-OAUTH-PROXY   (veja README)
+
+local_backend: true       # permite testar o painel no computador com `npm run cms`
+locale: pt
+site_url: https://deborasilvaacessorios.com.br
+display_url: https://deborasilvaacessorios.com.br
+
+media_folder: public/uploads
+public_folder: /uploads
+# Para usar o Cloudinary no lugar de enviar arquivos ao repositório:
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: SEU_CLOUD_NAME
+#     api_key: SUA_API_KEY
+
+collections:
+  - name: produtos
+    label: Produtos
+    label_singular: Produto
+    folder: content/products
+    extension: json
+    format: json
+    create: true
+    slug: "{{fields.nome}}"
+    identifier_field: nome
+    summary: "{{nome}} — {{categoria}}"
+    fields:
+      - { label: Nome, name: nome, widget: string }
+      - { label: Categoria, name: categoria, widget: select, options: ["Anéis", "Colares", "Brincos", "Pulseiras"] }
+      - { label: Preço (R$), name: preco, widget: number, value_type: float, min: 0 }
+      - { label: Descrição, name: descricao, widget: text }
+      - { label: Material, name: material, widget: string, hint: "Ex.: Ouro 18k, Prata 925, Ouro rosé, Banho de ouro" }
+      - { label: Peso, name: peso, widget: string, required: false, hint: "Ex.: 3,2 g" }
+      - { label: Tamanho / medidas, name: tamanho, widget: string, required: false }
+      - label: Fotos
+        name: fotos
+        widget: list
+        hint: "A primeira foto é a principal. Envie arquivos ou cole o link (Cloudinary, Google Drive, etc.)."
+        field: { label: Foto, name: foto, widget: image }
+      - { label: Vídeo (link), name: video, widget: string, required: false, hint: "YouTube, Vimeo, Google Drive ou link direto .mp4" }
+      - { label: Modelo 3D (link .glb), name: modelo3d, widget: string, required: false, hint: "Opcional. Sem ele, o site mostra uma joia 3D genérica." }
+      - label: Fotos 360°
+        name: imagens360
+        widget: list
+        required: false
+        hint: "Sequência de fotos girando a peça (ordem do giro)."
+        field: { label: Foto, name: foto, widget: image }
+      - { label: Estoque, name: estoque, widget: number, value_type: int, min: 0, default: 1 }
+      - { label: Destaque, name: destaque, widget: boolean, default: false }
+      - { label: Coleção, name: colecao, widget: string }
+      - { label: Tipo de joia 3D, name: modelo3d_tipo, widget: select, options: ["anel", "colar", "brinco", "pulseira"], default: anel }
+      - { label: Cor do metal 3D, name: metal, widget: select, options: [{ label: Ouro, value: gold }, { label: Ouro rosé, value: rose }, { label: Prata, value: silver }], default: gold }
+      - { label: Pedra 3D, name: pedra, widget: select, options: [{ label: Cristal, value: clear }, { label: Rubi, value: ruby }, { label: Pérola, value: pearl }, { label: Rosa, value: rose }], default: clear }

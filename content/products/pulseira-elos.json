@@ -1,0 +1,23 @@
+{
+  "nome": "Pulseira Elos Grandes",
+  "categoria": "Pulseiras",
+  "preco": 980,
+  "descricao": "Elos largos e polidos em prata 925. Uma pulseira de presença para compor sozinha ou em camadas.",
+  "material": "Prata 925",
+  "peso": "14,0 g",
+  "tamanho": "18 cm",
+  "fotos": [
+    "/images/products/pulseira-elos-1.svg",
+    "/images/products/pulseira-elos-2.svg",
+    "/images/products/pulseira-elos-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 12,
+  "destaque": false,
+  "colecao": "Clássicos",
+  "modelo3d_tipo": "pulseira",
+  "metal": "silver",
+  "pedra": "clear"
+}

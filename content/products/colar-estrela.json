@@ -1,0 +1,23 @@
+{
+  "nome": "Colar Estrela Guia",
+  "categoria": "Colares",
+  "preco": 3650,
+  "descricao": "Corrente fina com pingente de estrela e brilhante no centro. Comprimento de 45 cm com extensor de 5 cm.",
+  "material": "Ouro 18k",
+  "peso": "5,4 g",
+  "tamanho": "45 cm + 5 cm extensor",
+  "fotos": [
+    "/images/products/colar-estrela-1.svg",
+    "/images/products/colar-estrela-2.svg",
+    "/images/products/colar-estrela-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 8,
+  "destaque": true,
+  "colecao": "Lunar",
+  "modelo3d_tipo": "colar",
+  "metal": "gold",
+  "pedra": "clear"
+}

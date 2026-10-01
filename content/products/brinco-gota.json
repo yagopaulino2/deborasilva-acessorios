@@ -1,0 +1,23 @@
+{
+  "nome": "Brincos Gota de Luz",
+  "categoria": "Brincos",
+  "preco": 2980,
+  "descricao": "Brincos de ouro 18k com gota facetada que se move a cada passo e captura a luz do ambiente.",
+  "material": "Ouro 18k",
+  "peso": "4,6 g (par)",
+  "tamanho": "4,8 cm de altura",
+  "fotos": [
+    "/images/products/brinco-gota-1.svg",
+    "/images/products/brinco-gota-2.svg",
+    "/images/products/brinco-gota-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 7,
+  "destaque": true,
+  "colecao": "Aurora",
+  "modelo3d_tipo": "brinco",
+  "metal": "gold",
+  "pedra": "clear"
+}

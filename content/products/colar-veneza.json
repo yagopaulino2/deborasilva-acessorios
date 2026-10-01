@@ -1,0 +1,23 @@
+{
+  "nome": "Colar Veneza com Gota",
+  "categoria": "Colares",
+  "preco": 590,
+  "descricao": "Corrente veneziana em banho de ouro 18k com gota de cristal rubi. Ótimo custo-benefício com acabamento refinado.",
+  "material": "Banho de ouro",
+  "peso": "7,8 g",
+  "tamanho": "45 cm",
+  "fotos": [
+    "/images/products/colar-veneza-1.svg",
+    "/images/products/colar-veneza-2.svg",
+    "/images/products/colar-veneza-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 22,
+  "destaque": false,
+  "colecao": "Clássicos",
+  "modelo3d_tipo": "colar",
+  "metal": "gold",
+  "pedra": "ruby"
+}

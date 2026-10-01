@@ -1,0 +1,23 @@
+{
+  "nome": "Brincos Ponto de Luz",
+  "categoria": "Brincos",
+  "preco": 720,
+  "descricao": "Ponto de luz com halo em prata 925 e pingente delicado. Elegância discreta para usar todos os dias.",
+  "material": "Prata 925",
+  "peso": "3,0 g (par)",
+  "tamanho": "3,2 cm de altura",
+  "fotos": [
+    "/images/products/brinco-ponto-de-luz-1.svg",
+    "/images/products/brinco-ponto-de-luz-2.svg",
+    "/images/products/brinco-ponto-de-luz-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 18,
+  "destaque": false,
+  "colecao": "Lunar",
+  "modelo3d_tipo": "brinco",
+  "metal": "silver",
+  "pedra": "clear"
+}

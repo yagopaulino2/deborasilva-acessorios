@@ -1,0 +1,23 @@
+{
+  "nome": "Anel Imperial Rosé",
+  "categoria": "Anéis",
+  "preco": 3290,
+  "descricao": "Anel trio em ouro rosé com pedra central oval e laterais em cabochão. Presença marcante, toque romântico.",
+  "material": "Ouro rosé",
+  "peso": "4,1 g",
+  "tamanho": "Aro 12 ao 24",
+  "fotos": [
+    "/images/products/anel-imperial-1.svg",
+    "/images/products/anel-imperial-2.svg",
+    "/images/products/anel-imperial-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 4,
+  "destaque": false,
+  "colecao": "Aurora",
+  "modelo3d_tipo": "anel",
+  "metal": "rose",
+  "pedra": "rose"
+}

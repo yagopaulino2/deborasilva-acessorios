@@ -1,0 +1,23 @@
+{
+  "nome": "Argolas Sol",
+  "categoria": "Brincos",
+  "preco": 420,
+  "descricao": "Argolas médias em banho de ouro com brilho espelhado. Leves e confortáveis.",
+  "material": "Banho de ouro",
+  "peso": "5,2 g (par)",
+  "tamanho": "3,5 cm de diâmetro",
+  "fotos": [
+    "/images/products/brinco-argola-sol-1.svg",
+    "/images/products/brinco-argola-sol-2.svg",
+    "/images/products/brinco-argola-sol-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 30,
+  "destaque": false,
+  "colecao": "Clássicos",
+  "modelo3d_tipo": "brinco",
+  "metal": "gold",
+  "pedra": "clear"
+}

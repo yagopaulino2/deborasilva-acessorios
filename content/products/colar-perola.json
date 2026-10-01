@@ -1,0 +1,23 @@
+{
+  "nome": "Colar Pérola Clássica",
+  "categoria": "Colares",
+  "preco": 1290,
+  "descricao": "Pérola cultivada de 12 mm em engaste de prata 925. Um clássico atemporal para o dia a dia e para ocasiões especiais.",
+  "material": "Prata 925 e pérola",
+  "peso": "6,0 g",
+  "tamanho": "42 cm + 5 cm extensor",
+  "fotos": [
+    "/images/products/colar-perola-1.svg",
+    "/images/products/colar-perola-2.svg",
+    "/images/products/colar-perola-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 10,
+  "destaque": false,
+  "colecao": "Clássicos",
+  "modelo3d_tipo": "colar",
+  "metal": "silver",
+  "pedra": "pearl"
+}

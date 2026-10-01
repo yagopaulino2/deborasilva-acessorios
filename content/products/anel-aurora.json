@@ -1,0 +1,23 @@
+{
+  "nome": "Anel Solitário Aurora",
+  "categoria": "Anéis",
+  "preco": 4890,
+  "descricao": "Solitário clássico em ouro 18k com pedra central de corte brilhante. Garras delicadas que deixam a luz entrar por todos os lados.",
+  "material": "Ouro 18k",
+  "peso": "3,2 g",
+  "tamanho": "Aro 12 ao 24 (sob medida)",
+  "fotos": [
+    "/images/products/anel-aurora-1.svg",
+    "/images/products/anel-aurora-2.svg",
+    "/images/products/anel-aurora-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 6,
+  "destaque": true,
+  "colecao": "Aurora",
+  "modelo3d_tipo": "anel",
+  "metal": "gold",
+  "pedra": "clear"
+}

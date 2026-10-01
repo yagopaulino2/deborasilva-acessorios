@@ -1,0 +1,23 @@
+{
+  "nome": "Pulseira Cometa",
+  "categoria": "Pulseiras",
+  "preco": 2390,
+  "descricao": "Corrente fina em ouro rosé com charm de estrela cadente. Delicada, feminina e cheia de significado.",
+  "material": "Ouro rosé",
+  "peso": "4,8 g",
+  "tamanho": "16 cm + 3 cm extensor",
+  "fotos": [
+    "/images/products/pulseira-cometa-1.svg",
+    "/images/products/pulseira-cometa-2.svg",
+    "/images/products/pulseira-cometa-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 5,
+  "destaque": true,
+  "colecao": "Lunar",
+  "modelo3d_tipo": "pulseira",
+  "metal": "rose",
+  "pedra": "rose"
+}

@@ -1,0 +1,23 @@
+{
+  "nome": "Pulseira Riviera",
+  "categoria": "Pulseiras",
+  "preco": 5490,
+  "descricao": "Linha contínua de pedras em ouro 18k, com fecho de segurança duplo. Peça de assinatura da coleção Aurora.",
+  "material": "Ouro 18k",
+  "peso": "12,4 g",
+  "tamanho": "17 cm (ajuste sob medida)",
+  "fotos": [
+    "/images/products/pulseira-riviera-1.svg",
+    "/images/products/pulseira-riviera-2.svg",
+    "/images/products/pulseira-riviera-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 3,
+  "destaque": false,
+  "colecao": "Aurora",
+  "modelo3d_tipo": "pulseira",
+  "metal": "gold",
+  "pedra": "clear"
+}

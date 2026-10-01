@@ -1,0 +1,23 @@
+{
+  "nome": "Anel Lua Nova",
+  "categoria": "Anéis",
+  "preco": 890,
+  "descricao": "Meia-lua esculpida com três pontos de luz em zircônia. Leve, delicado e fácil de combinar.",
+  "material": "Prata 925",
+  "peso": "2,6 g",
+  "tamanho": "Aro 12 ao 24",
+  "fotos": [
+    "/images/products/anel-lua-nova-1.svg",
+    "/images/products/anel-lua-nova-2.svg",
+    "/images/products/anel-lua-nova-3.svg"
+  ],
+  "video": "",
+  "modelo3d": "",
+  "imagens360": [],
+  "estoque": 14,
+  "destaque": false,
+  "colecao": "Lunar",
+  "modelo3d_tipo": "anel",
+  "metal": "silver",
+  "pedra": "clear"
+}
