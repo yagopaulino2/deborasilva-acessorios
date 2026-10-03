@@ -15,7 +15,7 @@ export default function Band() {
       <motion.div style={{ opacity: reduce ? 0.35 : glow }} className="absolute left-1/2 top-1/2 h-[60vmin] w-[60vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,#c9a24b_0%,transparent_65%)] blur-2xl" aria-hidden="true" />
       <div className="linha-ouro absolute inset-x-0 top-0" />
       <div className="linha-ouro absolute inset-x-0 bottom-0" />
-      <motion.p style={{ x: reduce ? 30 : x1 }} className="whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light italic leading-none text-champagne-100/90">
+      <motion.p style={{ x: reduce ? 50 : x1 }} className="whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light italic leading-none text-champagne-100/90">
         Cada joia guarda um momento
       </motion.p>
       <motion.p style={{ x: reduce ? 50 : x3 }} className="mt-2 whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light leading-none texto-ouro md:mt-4">
