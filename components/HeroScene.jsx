@@ -22,7 +22,7 @@ export default function HeroScene() {
         <Float speed={1.4} rotationIntensity={0.15} floatIntensity={0.6}>
           <Spin enabled={!reduce} speed={0.45}>
             <group rotation={[0.35, 0, 0.12]} scale={mobile ? 0.62 : 0.74} position={[0, -0.75, 0]}>
-              <Jewel tipo="anel" metal="gold" pedra="red" />
+              <Jewel tipo="anel" metal="gold" pedra="clean" />
             </group>
           </Spin>
         </Float>
