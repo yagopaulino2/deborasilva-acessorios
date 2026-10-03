@@ -12,7 +12,7 @@ const poeira = Array.from({ length: 14 }, (_, i) => ({
   left: `${(i * 37 + 11) % 96}%`, top: `${40 + ((i * 53) % 55)}%`, size: 2 + (i % 3), d: `${(i * 0.9) % 7}s`, t: `${8 + (i % 5)}s`, dx: `${(i % 2 ? 1 : -1) * (10 + i * 3)}px`,
 }));
 
-const linhas = ["JOIAS QUE", "CONTAM", "HISTÓRIAS"];
+const linhas = ["ACESSORIOS QUE", "FAZEM PARTE","DA SUAS", "HISTÓRIAS"];
 
 export default function Hero() {
   const ref = useRef(null);
