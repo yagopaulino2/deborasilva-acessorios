@@ -18,7 +18,7 @@ export default function Band() {
       <motion.p style={{ x: reduce ? 50 : x1 }} className="whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light italic leading-none text-champagne-100/90">
         Cada joia guarda um momento
       </motion.p>
-      <motion.p style={{ x: reduce ? -20 : x3 }} className="mt-2 whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light leading-none texto-ouro md:mt-4">
+      <motion.p style={{ x: reduce ? 0 : x3 }} className="mt-2 whitespace-nowrap font-serif text-[clamp(1rem,8vw,8rem)] font-light leading-none texto-ouro md:mt-4">
         para ser lembrado para sempre
       </motion.p>
     </section>
