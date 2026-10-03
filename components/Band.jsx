@@ -12,6 +12,7 @@ export default function Band() {
   const glow = useTransform(scrollYProgress, [0, 0.5, 1], [0.1, 0.55, 0.1]);
   return (
     <section ref={ref} aria-label="Manifesto" className="relative overflow-hidden bg-vinho-900 py-24 md:py-36">
+      
       <div style={{ width: '1080px', height: '1080px', position: 'relative' }}>
   <WebThreads
     color1="#eace08"
